@@ -1,18 +1,6 @@
 # BostonRISE
-Java Code for the Greedy dense subgraph discovery algorithms. Provide an input file in the form of an adjacency list.
-Example:
-0 7
-1 2 7 8
-2 1 3 7 8
-3 2 4 5
-4 3
-5 3 6 8
-6 5 7
-7 0 1 2 6 8
-8 1 2 5 7
+Java Code for the Greedy dense subgraph discovery algorithms. Provide an input file in the form of an adjacency list (edges must be given in both directions). One line format example: 0 4 5 6
 
-For KCliqueTriangle, also supply a file of all triangles in the graph in the format as follows:
-0 1 2
-4 5 6
+Specifically for KCliqueTriangle, also supply a file of all triangles in the graph by specifying the three vertices that compose it on each line. Ex: 4 5 6
 
-Finally, change the name of the file in the BufferedReader input field to match that of your own dataset.
+Finally, change the name of the file in the BufferedReader input field to match that of your own datasets.
