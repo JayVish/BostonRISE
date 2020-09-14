@@ -1,11 +1,8 @@
 # Boston Rise Approximal Subgraph Isomorphsim Research
-Java Code for the Greedy dense subgraph discovery algorithms. Provide an input file in the form of an adjacency list (edges must be given in both directions). One line format example: 0 4 5 6
 
-Specifically for KCliqueTriangle, also supply a file of all triangles in the graph by specifying the three vertices that compose it on each line. Ex: 4 5 6
+Java code for finding approximate isomorphisms using the Twitter EgoNetworks.
 
-Finally, change the name of the file in the BufferedReader input field to match that of your own datasets.
-
-## Twitter Ego Network Extraction
+## Twitter Ego Network Extraction Utility (CLI)
 The ExtractTwitterEgo folder provides all the relevant files one needs to produce Twitter ego networks. The steps to produce files are as follows:
 1. Download and open ExtractTwitterEgo
 2. Ensure you have Java as part of your PATH (Typing in java -version should be at least java version 10) 
