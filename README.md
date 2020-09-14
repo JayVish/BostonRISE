@@ -1,6 +1,6 @@
 # Boston Rise Approximal Subgraph Isomorphsim Research
 
-Java code for finding approximate isomorphisms using the Twitter EgoNetworks.
+Java code for finding approximate isomorphisms using the Twitter EgoNetworks. The code for graph generation and testing can be found under "Subgraph_Isomorphism_v2/src/main/java/org/research/Subgraph_Isomorphism/".
 
 ## Twitter Ego Network Extraction Utility (CLI)
 The ExtractTwitterEgo folder provides all the relevant files one needs to produce Twitter ego networks. The steps to produce files are as follows:
