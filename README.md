@@ -2,6 +2,21 @@
 
 Java code for finding approximate isomorphisms using the Twitter EgoNetworks. The code for graph generation and testing can be found under "Subgraph_Isomorphism_v2/src/main/java/org/research/Subgraph_Isomorphism/".
 
+## Dense Subgraph Discovery
+
+Charikar’s Densest Subgraph Problem (DS)
+  * Find a subgraph S that maximizes the ratio of edges to nodes:  (|𝐸(𝑆)|)/(|𝑆|)
+  * Employs a greedy-peeling approach, removing the vertex with lowest degree at each iteration
+  * 𝑂(𝑚+𝑛) runtime
+  * 1/2 - approximation guarantee
+
+Tsourakakis' Triangle Densest Subgraph Problem (TDS)
+  * Find a subgraph S that maximizes the ratio of triangles to nodes : (|𝑇(𝑆)|)/(|𝑆|)  
+  * Employs a greedy-peeling approach, removing the vertex with lowest triangle participation at each iteration
+  * 𝑂(𝑚𝑛) runtime
+  * 1/3 − approximation guarantee"
+
+
 ## Twitter Ego Network Extraction Utility (CLI)
 The ExtractTwitterEgo folder provides all the relevant files one needs to produce Twitter ego networks. The steps to produce files are as follows:
 1. Download and open ExtractTwitterEgo
